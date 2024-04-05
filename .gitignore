@@ -1,0 +1,6 @@
+
+target/
+dbt_packages/
+logs/
+dbt-env/
+my-test-project-010424-4f37a4adf7fa.json

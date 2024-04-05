@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: last_week_count
+    description: "Counts number of trips of taxi"
+    columns:
+      - name: taxi_id
+        tests:
+          - not_null
+      - name: company
+      - name: week_num
+        tests:
+          - not_null
+      - name: number_trips
